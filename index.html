@@ -9,8 +9,11 @@
 </head>
 <body>
   <div class="container">
-    <h1>Amethesia</h1>
-    <h2>A friendly place!</h2>
+
+    <div class="jumbotron">
+      <h1>Amethesia</h1>
+      <h2>A friendly place!</h2>
+    </div><!--jumbo-->
 
     <div id="picCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -18,7 +21,37 @@
         <li data-target="#picCarousel" data-slide-to="1"></li>
         <li data-target="#picCarousel" data-slide-to="2"></li>
       </ol>
-    </div><!--carousel-->
+
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/amethesia.jpg" alt="">
+          <div class="carousel-caption">
+            <h3>Amethesia</h3>
+            <p>A friendly place!</p>
+          </div><!--caption-->
+        </div><!--item active-->
+
+        <div class="item">
+          <img src="img/residents.jpg" alt="">
+          <div class="carousel-caption">
+            <h3>Residents</h3>
+            <p>Amethesia is home to the coolest residents</p>
+          </div><!--caption-->
+        </div><!--item active-->
+
+  
+        <div class="item">
+          <img src="img/activities.jpg" alt="">
+          <div class="carousel-caption">
+            <h3>Activities</h3>
+            <p>All Amethesia activities are fun, pointless, and guaranteed to waste time!</p>
+          </div><!--caption-->
+        </div><!--item active-->
+
+        <a class="left carousel-control" href="#picCarousel" data-slide="prev"></a>
+      </div><!--carousel inner-->
+
+    </div><!--pic carousel-->
 
   </div><!--container-->
 </body>
